@@ -75,10 +75,10 @@ export const botConfig = {
     applicationCooldown: 24,
 
     // Auto-delete denied applications after this many days.
-    deleteDeniedAfter: 7,
+    deleteDeniedAfter: 5,
 
     // Auto-delete approved applications after this many days.
-    deleteApprovedAfter: 30,
+    deleteApprovedAfter: 7,
 
     // Role IDs allowed to manage applications.
     managerRoles: [], // Will be populated from environment or database
@@ -181,14 +181,14 @@ export const botConfig = {
 
     // Beg command random payout range.
     begMin: 5,
-    begMax: 50,
+    begMax: 100,
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.7,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
-    robFailJailTime: 3600000,
+    robFailJailTime: 1800000,
   },
 
   // =========================
